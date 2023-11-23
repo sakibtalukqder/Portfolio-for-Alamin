@@ -28,7 +28,6 @@ const App = () => (
         <Route path='/contract' element={<Contract />} />
       </Routes>
     </NavbarComponent>
-      <Footer />
   </div>
 );
 
