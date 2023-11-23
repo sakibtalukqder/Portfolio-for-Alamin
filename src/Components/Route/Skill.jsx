@@ -13,10 +13,10 @@ const Skills = () => {
     ];
 
     return (
-        <section className="px-0 md:px-0 lg:px-12 xl:px-16 bg-purple-50 flex items-center h-full">
+        <section className="px-0 md:px-0 lg:px-12 xl:px-16 bg-purple-50 flex items-center md:py-24">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
                 {/* Left Column */}
-                <div className="md:my-8 md:w-1/2 w-full">
+                <div className="md:my-8 md:w-1/2 w-full px-6">
                     <h2 className="text-4xl font-bold mb-8">My works <br /> & Experiences .......!!</h2>
                     <p className="text-gray-700">
                         Add some words here about yourself, your passion, or any additional information.
@@ -25,7 +25,7 @@ const Skills = () => {
                 </div>
 
                 {/* Right Column */}
-                <div className="flex flex-wrap justify-center lg:w-1/2">
+                <div className="flex flex-wrap justify-center lg:w-1/2 my-8">
                     {skillsList.map((skill, index) => (
                         <div
                             key={index}

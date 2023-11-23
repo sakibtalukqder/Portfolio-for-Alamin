@@ -3,7 +3,7 @@ import React from 'react';
 const Contract = () => {
     return (
         <div className='bg-cyan-50'>
-            <div className="container my-28 mx-auto md:px-6 ">
+            <div className="container py-28 mx-auto px-6 ">
                 <section className="mb-32">
                     <div className="flex justify-center">
                         <div className="text-center md:max-w-xl lg:max-w-3xl">

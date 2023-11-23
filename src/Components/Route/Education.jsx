@@ -32,7 +32,7 @@ const Education = () => {
 
     return (
         <div className='px-0 md:px-0 lg:px-12 xl:px-16 bg-red-50'>
-            <div className="py-16">
+            <div className="py-16 mx-7">
                 <div className="container mx-auto">
                     <h2 className="text-4xl font-bold mb-8 text-center">Educational Status</h2>
                     <div className="flex flex-wrap w-full items-center justify-center gap-8">

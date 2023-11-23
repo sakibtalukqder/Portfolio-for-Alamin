@@ -15,7 +15,7 @@ const About = () => {
                             alt="Profile"
                         />
                     </div>
-                    <div className="md:w-1/2">
+                    <div className="md:w-1/2 mx-6">
                         <h2 className="text-4xl font-bold mb-8 ">About Me</h2>
                         <div className="">
                             <h3 className="text-2xl font-semibold mb-4">University Name</h3>
