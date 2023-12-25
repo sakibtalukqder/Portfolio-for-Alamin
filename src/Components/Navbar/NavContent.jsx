@@ -7,8 +7,8 @@ const NavContent = () => {
     return (
         <div className='flex flex-col justify-center z-20 bg-slate-50 w-full mt-7'>
             <div className='flex justify-center py-6'>
-                <figure className=' h-48 w-48 rounded-full overflow-hidden'>
-                    <img src={Img} alt="" />
+                <figure className=' h-48 w-48 rounded-full overflow-hidden '>
+                    <img className='img-background rounded-full' src={Img} alt="" />
                 </figure>
             </div>
                 <h1 className='text-2xl font-bold text-center mb-6'>Alamin</h1>
